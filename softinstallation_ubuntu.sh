@@ -37,29 +37,6 @@ echo ""
 echo ""
 echo ""
 
-echo "----------Desklog----------"
-sudo apt --fix-broken install -y
-sudo wget https://desklogclient.s3.ap-south-1.amazonaws.com/clients/Desklog-Client-2.09.deb
-sudo dpkg -i Desklog-Client-2.09.deb
-
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-
-echo "----------AppImage installation----------"
-sudo apt --fix-broken install -y
-sudo add-apt-repository ppa:appimagelauncher-team/stable -y
-sudo apt-get update -y
-sudo apt-get install appimagelauncher -y
-
-echo ""
-echo ""
-echo ""
-echo ""
-echo ""
-
 echo "----------Apache installation----------"
 sudo apt --fix-broken install -y
 sudo apt update
@@ -90,7 +67,7 @@ echo ""
 echo ""
 echo ""
 
-echo "----------PHP 8.1 installation ----------"
+echo "----------Multiple PHP  installation ----------"
 
 sudo apt --fix-broken install -y
 sudo add-apt-repository ppa:ondrej/php -y
