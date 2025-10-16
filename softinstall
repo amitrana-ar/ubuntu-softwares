@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/amitrana-ar/ubuntu-softwares/refs/heads/master/softinstallation_ubuntu.sh)"
